@@ -1,0 +1,24 @@
+h1 {
+  font-family: "Yuanti SC", sans-serif;
+  font-size: 100px;
+}
+
+h1 span {
+  color: green;
+}
+
+img {
+  width: 100%;
+}
+
+.header_row {
+  border-bottom: 1px solid #eee;
+}
+
+.press {
+  background: green;
+  color: white;
+  padding: 40px;
+  margin-top: 40px;
+  /*text-align: center;  */
+}
