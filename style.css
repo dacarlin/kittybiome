@@ -1,24 +1,62 @@
+@charset "UTF-8";
+
 h1 {
-  font-family: "Yuanti SC", sans-serif;
   font-size: 100px;
+  color: rgba( 203, 16, 105, 1);
 }
 
 h1 span {
   color: green;
 }
 
+
+h1, h2, p.lead {
+  font-family: "Yuanti SC", sans-serif;
+}
+
+.row {
+  margin-bottom: 2em;
+}
+
 img {
   width: 100%;
 }
 
-.header_row {
-  border-bottom: 1px solid #eee;
-}
-
 .press {
-  background: green;
+  background: #222;
   color: white;
-  padding: 40px;
+  padding: 20px 40px 40px 40px;
   margin-top: 40px;
   /*text-align: center;  */
+}
+
+iframe {
+  width: 100%;
+}
+
+div.press div {
+  text-align: center;
+  color: #aaa;
+}
+
+div.press div p a {
+  font-family: "Yuanti SC", sans-serif;
+  color: white;
+  text-decoration: none;
+  border-bottom: 8px solid rgba( 0, 255, 0, 0.1 );
+  font-size: 24px;
+}
+
+div.press div p a:before {
+  content: "“";
+  color: magenta;
+}
+
+div.press div p a:after {
+  content: "”";
+  color: magenta;
+}
+
+div.press div p a:hover {
+  opacity: 0.6;
 }
