@@ -60,11 +60,16 @@ div.press div p a:hover {
 /* team */
 
 .team {
-  background-color: rgba(255,0,0,0.1); 
+  background-color: rgba(255,0,0,0.1);
 }
 
 div.member {
   width: 23%;
   padding: 10px;
   float: left;
+}
+
+.team .member h3 {
+  color: green;
+  font-size: 20px; 
 }
