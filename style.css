@@ -10,7 +10,7 @@ h1 span {
 }
 
 
-h1, h2, p.lead {
+h1, h2, p.lead, h3 {
   font-family: "Yuanti SC", sans-serif;
 }
 
@@ -55,4 +55,16 @@ div.press div p a:after {
 
 div.press div p a:hover {
   opacity: 0.6;
+}
+
+/* team */
+
+.team {
+  background-color: rgba(255,0,0,0.1); 
+}
+
+div.member {
+  width: 23%;
+  padding: 10px;
+  float: left;
 }
