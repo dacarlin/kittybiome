@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.right {
+  text-align: center;
+}
+
 h1 {
   font-size: 100px;
   color: rgba( 203, 16, 105, 1);
@@ -60,16 +64,37 @@ div.press div p a:hover {
 /* team */
 
 .team {
-  background-color: rgba(255,0,0,0.1);
+  /*background-color: rgba(255,0,0,0.1);*/
 }
 
 div.member {
-  width: 23%;
+  width: 32%;
   padding: 10px;
   float: left;
 }
 
 .team .member h3 {
   color: green;
-  font-size: 20px; 
+  font-size: 20px;
+}
+
+
+/* join button */
+
+.join {
+  font-weight: bold;
+  background-color: green;
+}
+
+.join a {
+  color: #fff;
+
+}
+
+
+/* body */
+
+body {
+  border-top: 8px solid green;
+  border-bottom: 26px solid #eee;
 }
